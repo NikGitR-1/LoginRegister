@@ -6,7 +6,6 @@ public class Main {
     public static final String POSSIBLE_ANSWER_3 = "show db";
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
         UserDAO userDAO = new UserDAO();
         Scanner scanner = new Scanner(System.in);
         String login;
